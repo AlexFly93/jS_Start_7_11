@@ -10,9 +10,10 @@ console.log(number1 % number2);
 
 let number = 37;
 number += 6;
-number = ++number;
+number++;
 number /= 2;
 number -= 3;
-number = --number;
+number--;
 number %= 4;
-number +="qwerty";
+number += "qwerty";
+console.log(number);
