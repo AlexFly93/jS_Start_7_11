@@ -1,69 +1,31 @@
-//let condition = true;
-//console.log(condition);
+//1) Якщо значення змінної number позитивне або0 - виводимо "positive", інакше - "negative"
 
-//let number1 = 12;
-//let number2 = 5;
+const number1 = -56;
+const MINPOS = 0;
 
-//console.log(number1, ' > ', number2, ' = ', number1 > number2)
-//console.log(number1, ' >= ', number2, ' = ', number1 >= number2)
-//console.log(number1, ' < ', number2, ' = ', number1 < number2)
-//console.log(number1, ' <= ', number2, ' = ', number1 <= number2)
+if (number1 >= MINPOS) {
+  console.log("positive");
+} else {
+  console.log("negative");
+}
 
-//let string1 = 'cat'
-//let string2 = 'dog'
-//console.log(string1, ' > ', string2, ' = ', string1 > string2)
+//2) Є дві змінні - num1 і num2. Якщо num1>num2 - вивести результат віднімання, інакше - вивести результат множення
 
-//console.log(true, ' && ', true, ' = ', true && true)
-//console.log(true, ' && ', false, ' = ', true && false)
-//console.log(false, ' && ', true, ' = ', false && true)
-//console.log(false, ' && ', false, ' = ', false && false)
+const num1 = 10;
+const num2 = 33;
 
-//console.log(true, ' || ', true, ' = ', true || true)
-//console.log(true, ' || ', false, ' = ', true || false)
-//console.log(false, ' || ', true, ' = ', false || true)
-//console.log(false, ' || ', false, ' = ', false || false)
+if (num1 > num2) {
+  console.log(num1 - num2);
+} else {
+  console.log(num1 * num2);
+}
 
-// let string = "";
-// let number = 12;
-// let userName = "Brad";
-// let bool = false;
-// let object = null;
-// let resultRemainder = number % 5;
-// let result = string || number
-// console.log(string || number);
-// console.log(result)
+//3) Якщо значення змінної кратно(тобто ділеться без остачі) на 7 і одночасно кратна 3 - виводимо "you win!", інакше - "you loose"
 
-// const condition = userName
+const number = 21;
 
-// let userName = null;
-// if (condition) {
-//   console.log('cabinet');
-// } else {
-//     console.log('sign up')
-// }
-//     console.log("main text");
-
-// const userAge = 24;
-// const AGE_ADULT = 18
-// if (userAge >= AGE_ADULT) {
-//   console.log("yes");
-// } else {
-//   console.log("no");
-// }
-
-// let number = 48;
-
-// if (number % 2 === 0) {
-//   console.log("even");
-// } else {
-//   console.log("odd");
-// }
-
-// const userAge = 20;
-// const minAge = 6;
-// const maxAge = 17;
-// if (userAge >= minAge && userAge < maxAge) {
-//   console.log("pupil");
-// } else {
-//   console.log("not pupil");
-// }
+if (number % 7 === 0 ,  number % 3 === 0) {
+  console.log("YOU_WIN");
+} else {
+  console.log("YOU_LOOSE");
+}
