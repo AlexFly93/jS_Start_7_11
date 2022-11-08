@@ -23,12 +23,47 @@
 //console.log(false, ' || ', true, ' = ', false || true)
 //console.log(false, ' || ', false, ' = ', false || false)
 
-let string = "";
-let number = 12;
-let userName = "Brad";
-let bool = false;
-let object = null;
-let resultRemainder = number % 5;
-let result = string || number
-console.log(string || number);
-console.log(result)
+// let string = "";
+// let number = 12;
+// let userName = "Brad";
+// let bool = false;
+// let object = null;
+// let resultRemainder = number % 5;
+// let result = string || number
+// console.log(string || number);
+// console.log(result)
+
+// const condition = userName
+
+// let userName = null;
+// if (condition) {
+//   console.log('cabinet');
+// } else {
+//     console.log('sign up')
+// }
+//     console.log("main text");
+
+// const userAge = 24;
+// const AGE_ADULT = 18
+// if (userAge >= AGE_ADULT) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+
+// let number = 48;
+
+// if (number % 2 === 0) {
+//   console.log("even");
+// } else {
+//   console.log("odd");
+// }
+
+// const userAge = 20;
+// const minAge = 6;
+// const maxAge = 17;
+// if (userAge >= minAge && userAge < maxAge) {
+//   console.log("pupil");
+// } else {
+//   console.log("not pupil");
+// }
