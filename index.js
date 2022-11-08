@@ -14,5 +14,5 @@ number = ++number;
 number /= 2;
 number -= 3;
 number = --number;
-number = number % 4;
-number = number + "qwerty";
+number %= 4;
+number +="qwerty";
