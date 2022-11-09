@@ -24,7 +24,7 @@ if (num1 > num2) {
 
 const number = 21;
 
-if (number % 7 === 0 ,  number % 3 === 0) {
+if (number % 7 === 0 && number % 3 === 0) {
   console.log("YOU_WIN");
 } else {
   console.log("YOU_LOOSE");
